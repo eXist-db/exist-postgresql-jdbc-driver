@@ -41,10 +41,10 @@
     <!-- include the XQuery Library modules written in XQuery from this project -->
     <xquerySets>
         <xquerySet>
-            <namespace>https://exist-db.org/exist-db/ns/app/mysql</namespace>
+            <namespace>https://exist-db.org/exist-db/ns/app/postgresql</namespace>
             <directory>${basedir}/src/main/xquery</directory>
             <includes>
-                <include>mysql-module.xqm</include>
+                <include>postgresql-module.xqm</include>
             </includes>
             <outputDirectory>content</outputDirectory>
         </xquerySet>
@@ -57,11 +57,11 @@
             <artifactId>${project.artifactId}</artifactId>
             <version>${project.version}</version>
         </dependencySet>
-        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
         <dependencySet>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.18</version>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.2.9</version>
         </dependencySet>
     </dependencySets>
 

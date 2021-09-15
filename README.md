@@ -1,3 +1,3 @@
-# MySQL JDBC Driver for eXist-db
+# PostgreSQL JDBC Driver for eXist-db
 
-Loadable JDBC Driver for MySQL within eXist-db.
+Loadable JDBC Driver for PostgreSQL within eXist-db.
