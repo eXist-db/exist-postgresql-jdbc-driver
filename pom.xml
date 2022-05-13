@@ -17,11 +17,10 @@
 
     <name>PostgreSQL JDBC Driver</name>
     <description>PostgreSQL JDBC Driver for eXist-db</description>
-    <url>https://exist-db.org/exist-db/jdbc/postgresql</url>
-
+    <url>https://exist-db.org/exist-db/jdbc/postgresql</url>    
     <organization>
-        <name>eXist-db</name>
-        <url>http://exist-db.org</url>
+        <name>eXist-db</name>        
+        <url>https://www.github.com/eXist-db/exist-postgresql-jdbc-driver</url>
     </organization>
 
     <licenses>
