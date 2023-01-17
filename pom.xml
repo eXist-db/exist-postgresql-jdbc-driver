@@ -17,9 +17,9 @@
 
     <name>PostgreSQL JDBC Driver</name>
     <description>PostgreSQL JDBC Driver for eXist-db</description>
-    <url>https://exist-db.org/exist-db/jdbc/postgresql</url>    
+    <url>https://exist-db.org/exist-db/jdbc/postgresql</url>
     <organization>
-        <name>eXist-db</name>        
+        <name>eXist-db</name>
         <url>https://www.github.com/eXist-db/exist-postgresql-jdbc-driver</url>
     </organization>
 
@@ -156,7 +156,7 @@
                         </goals>
                         <configuration>
                             <descriptor>xar-assembly.xml</descriptor>
-                            <finalName>${package-final-name}</finalName>
+                            <finalName>${package-final-name}-${build-commit-abbrev}</finalName>
                         </configuration>
                     </execution>
                 </executions>
