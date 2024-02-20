@@ -13,7 +13,7 @@
 
     <groupId>org.exist-db</groupId>
     <artifactId>exist-postgresql-jdbc-driver</artifactId>
-    <version>42.7.1</version>
+    <version>42.7.2</version>
 
     <name>PostgreSQL JDBC Driver</name>
     <description>PostgreSQL JDBC Driver for eXist-db</description>
